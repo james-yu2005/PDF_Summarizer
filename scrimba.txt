@@ -1,0 +1,110 @@
+Main Faqs
+
+What programming languages and frameworks does the platform cover?
+Our Frontend Developer Career Path uses HTML, CSS and JavaScript before moving on to React.
+We also have an AI Engineering Path aimed at devs who want to learn about implementing AI solutions. 
+
+Does the platform offer project-based learning where I can build real-world projects?
+Yes. All of our projects use real-world examples and all of our learning is project based.
+
+What is the format of the courses?
+Our courses use interactive scrims. A scrim is both a video player and a code editor. When you pause the video, you can edit the code the teach was working on. It’s really cool and you have to try it to believe it.
+
+Does the platform offer live classes or is it self-paced?
+All of our courses are streamed on demand, so it’s self-paced. We do have a weekly Townhall meet up on Discord and Bootcamp students have online meetings at fixed times.
+
+What kind of support is available (forums, mentorship, etc.)?
+Is there a community of learners where I can collaborate and network?
+We love our thriving Discord community! It’s a great place to get help and meet like minded coders! And we moderate it to make sure it’s a friendly and welcoming community for all.
+
+
+Does the platform offer certificates or credentials upon completion of a course or program?
+Yes, when you graduate you get a certificate.
+
+What is the cost of the courses or subscription, and are there any discounts or scholarships available?
+We use purchasing power parity, so please check Scrimba.com for your local price. If you are struggling to pay, please email us at help@scrimba.com and we will do our best to help.
+
+Can I access the platform and its resources offline?
+At the moment, we are an online only platform.
+
+What are the technical requirements to use the platform (system requirements, internet speed, etc.)?
+Scrimba is ultra lightweight so you will probably find you can use it on a low spec PC with mobile internet!
+
+Does the platform offer career assistance or job placement services?
+We have sections of our community and our Frontend Developer Career Path  dedicated to getting you your first job. We advise you on use of repos and portfolio projects, CVs, Resumes, covering letters and LinkedIn. We also have live streams where we interview recruiters.
+
+How frequently is the content updated to keep up with the latest industry trends and technologies?
+We are constantly updating and improving our content!
+
+Trial Period
+
+Does the platform offer a trial period or a money-back guarantee to test out the platform before committing? You can try the first scrims of a course for free. After that, we bill monthly but there is no minimum term so you can cancel when you want.
+
+Scrimba Bootcamp - Onboarding Resources
+
+We highly recommend having an intro call with a teacher assistant to onboard you onto the Bootcamp and answer any questions to help you get the most out of the program.
+
+Following are helpful resources to help set you up for success as a Scrimba Bootcamp student. If there are any resources that you’d like added to this doc, get in touch on Discord. We look forward to learning with you!
+
+Bootcamp Curriculum
+The Bootcamp follows the curriculum of our Frontend Developer Career Path. Access all the modules and projects of the path on Scrimba.com.
+
+Study Groups
+Your Discord Study Group consists of peers who share your goals. Think of it as a friendly space to get help, companionship, and encouragement.
+When you first join the group, we encourage you to reach out to your group and let them know about you, your background, and your coding journey. It’s important to be active, post daily, and be sure to join our weekly sessions. The more you get involved, the more you’ll benefit from it and get the most out of your Bootcamp learning experience.
+
+Common study group posts to help you stay on track: 
+
+Weekly learning commitments (”This week I will...”)
+Daily check-ins (”Today I will... ”)
+Share takeaways and highlights about what you’re learning &amp; building
+Learning challenges and wins
+Key takeaways or highlights from your code reviews
+
+Virtual Meetups
+You'll join weekly calls led by a Bootcamp mentor. The purpose of these sessions is to help give your week structure and increase your connection with peers. During these check-ins you can meet peers and your group leader, reflect on the previous week, ask questions, etc. 
+We frequently invite Scrimba teachers, code reviewers, and professional developers to chat with the group and answer questions. You'll also share wins, challenges, or anything you need support with. Each session is usually 1hr long, and you'll choose the session that best fits your schedule. Or feel free to attend all three.
+
+Mondays - 4pm CET / 10am EST / 7am PST
+Mondays - 8pm CET / 2pm EST / 11am PST
+Saturdays - 5pm CEST / 11am EST / 8am PST
+You can view all weekly Bootcamp events on your Scrimba dashboard (available at https://scrimba.com/dashboard#overview,), both in the "Bootcamp" widget and under “Upcoming events”. You can join the Zoom meetings directly from there by clicking the hyperlinks in the Bootcamp section. ALl times are in times in your local timezone.
+
+Coding Workshops
+Each week, Bootcamp mentors are available in the #student-sessions channel at various 1-hour time blocks to better support you. These sessions are tailored towards a particular coding topic or be a more general coding help session. Either way, be sure to take advantage of that hour and drop in if you have questions about what you're learning, are stuck on a project, or want to chat about front-end development.
+
+Your #student-sessions Discord channel is also a voice channel where you can have a chat with Bootcamp members at any time. We encourage you to jump into the channel when it's active and share your daily learning goals, what you're working on, any challenges with a course or project, what you're learning, or just catch up with other students and say hi.
+
+Code Reviews
+When you complete a Solo Project, you will be able to submit it to Scrimba so that one of our vetted teacher's assistants can give you a scrim-based code review. To submit a Solo Project for code review, type /review on any Discord channel and follow the Pumpkin bot's link. 
+The turnaround time is roughly 24 hours after submitting your Solo Project for review. We'll notify you when your code review is complete in the #code-reviews channel on Discord.
+You must submit your Solo Project as a scrim to get a code review.
+
+Follow-up Reviews
+
+You may ask for a follow-up review to go over some of the changes made based on code reviewer feedback and suggestions; these will likely be shorter and focused more on specific changes.
+Follow-up requests are usually made in the Discord thread for the code review. You don’t necessarily need to submit another form for the review.
+
+Getting Help with Coding Questions
+
+You can use the Bootcamp forum #code-help to post questions to the group at large. To best understand and answer your question, you should explain the problem with as much detail as possible, what you’ve tried so far, and - if possible - share a link to your code or the lesson that you have questions about.
+You may also schedule a 1-1 call with a mentor or teacher to discuss coding questions and walk through it with screen sharing. To request, just submit this form.
+
+Resources
+
+Bootcamp FAQs
+What is a Solo Project? 
+
+A Solo Project is one of the projects you'll need to complete as part of the Frontend Developer Career Path. Currently, there are 13+ Solo Projects within the 15 modules, and we're working on adding more soon.
+
+Where can I find the Bootcamp-exclusive Solo Projects?
+Those Solo Projects are all listed in your #study-group channel’s Pinned Messages.
+
+Can I attend all of the Sunday and Monday sessions?
+You sure can. We encourage you to do so from time-to-time to get to know the group.
+
+Is attendance in the Zoom and/or Discord sessions required?
+No! These are optional, and we understand if your schedule doesn’t allow you to attend. But these are a great opportunity to connect with others, ask questions, and stay accountable.
+
+Are the Bootcamp Monday sessions recorded?
+Not the entire session. We do record the guest intro and Q and A portion of the session when we have one.
