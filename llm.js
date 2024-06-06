@@ -19,8 +19,7 @@ if (!openAIApiKey) {
 const llm = new ChatOpenAI({ openAIApiKey });
 
 let conv_History = [
-    'Hi my name is Bob! Who are the teachers for scrimba?',
-    'The teachers for Scrimba include code reviewers, professional developers, and Scrimba teachers.'
+    ''
 ];
 
 const question_asked_by_user = "How old are you?";
@@ -69,6 +68,7 @@ const chain = RunnableSequence.from([
 ]);
 
 try {
+
     const response = await chain.invoke({
         question: question_asked_by_user,
         conversation_History: formatConvHistory(conv_History),
