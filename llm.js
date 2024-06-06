@@ -4,9 +4,8 @@ import { StringOutputParser } from "@langchain/core/output_parsers";
 import { RunnableSequence, RunnablePassthrough } from "@langchain/core/runnables";
 import { retriever } from "./utils/retriever.js";
 import { combineDocuments } from "./utils/combineDocuments.js";
-import { formatConvHistory } from "./utils/convHistory.js";
 import { saveMessage } from "./utils/saveMessage.js";
-import { retrieveHistory } from "./retrieveHistory.js";
+import { retrieveHistory } from "./utils/retrieveHistory.js";
 import dotenv from 'dotenv';
 dotenv.config();
 
