@@ -31,7 +31,7 @@ const llm = async () => {
         // Store documents in Supabase VectorStore
         await SupabaseVectorStore.fromDocuments(
             output,
-            // new OpenAIEmbeddings({ openAIApiKey }),
+            new OpenAIEmbeddings({ openAIApiKey }),
             {
                 client,
                 tableName: 'documents'

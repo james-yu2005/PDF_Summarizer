@@ -47,7 +47,7 @@ const chain = RunnableSequence.from([
 ])
 
 const response = await chain.invoke({
-    question: "What is the technical requirement for learning scrimba? my laptop is dusty" 
+    question: "What is scrimba about? Id like to learn more about it please." 
 })
 
 console.log(response)
