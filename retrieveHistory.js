@@ -35,8 +35,12 @@ const retrieveHistory = async () => {
         }
     }
 
-    console.log(human_ai_messages);
+    const conversationText = human_ai_messages.map(item => {
+        return item.human ? item.human : item.ai;
+    }).join('\n');
+      
+    return conversationText
 };
-retrieveHistory()
+
 export { retrieveHistory }
 

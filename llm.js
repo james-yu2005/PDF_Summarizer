@@ -6,6 +6,7 @@ import { retriever } from "./utils/retriever.js";
 import { combineDocuments } from "./utils/combineDocuments.js";
 import { formatConvHistory } from "./utils/convHistory.js";
 import { saveMessage } from "./utils/saveMessage.js";
+import { retrieveHistory } from "./retrieveHistory.js";
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -17,12 +18,10 @@ if (!openAIApiKey) {
 }
 
 const llm = new ChatOpenAI({ openAIApiKey });
+//retrieve Conversation History
+const conversationText = await retrieveHistory();
 
-let conv_History = [
-    ''
-];
-
-const question_asked_by_user = "How old are you?";
+const question_asked_by_user = "what is my name?";
 
 const standaloneQuestionTemplate = `Please simplify this question into a standalone and use conversation history if it exists
 conversation history: {conversation_History}
@@ -41,10 +40,9 @@ const retrieverChain = RunnableSequence.from([
     combineDocuments
 ]);
 
-const answerTemplate = `You are a helpful and enthusiastic support bot. Don't say the answer if you don't know it. Answer the question given
-some context. If you can't properly use the context, look at the conversation history. The original prompt from the user is also given.
-context: {context} 
+const answerTemplate = `You are a helpful and enthusiastic support bot. Look at the conversation history to answer the question.
 conversation history: {conversation_History}
+context: {context} 
 prompt: {prompt}  
 answer:`;
 const answerPrompt = PromptTemplate.fromTemplate(answerTemplate);
@@ -68,10 +66,9 @@ const chain = RunnableSequence.from([
 ]);
 
 try {
-
     const response = await chain.invoke({
         question: question_asked_by_user,
-        conversation_History: formatConvHistory(conv_History),
+        conversation_History: conversationText,
     });
 
     console.log("Response received:", response);
@@ -81,8 +78,6 @@ try {
         tableName: 'conversation',
     })
     
-    console.log(conv_History);
-
 } catch (error) {
     console.error("Error occurred while invoking the chain:", error);
 }
