@@ -5,6 +5,7 @@ import { RunnableSequence, RunnablePassthrough } from "@langchain/core/runnables
 import { retriever } from "./utils/retriever.js";
 import { combineDocuments } from "./utils/combineDocuments.js";
 import { formatConvHistory } from "./utils/convHistory.js";
+import { saveMessage } from "./utils/saveMessage.js";
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -74,9 +75,14 @@ try {
     });
 
     console.log("Response received:", response);
-    conv_History.push(question_asked_by_user);
-    conv_History.push(response);
+    saveMessage({
+        messageHuman: question_asked_by_user,
+        messageAI: response,
+        tableName: 'conversation',
+    })
+    
     console.log(conv_History);
+
 } catch (error) {
     console.error("Error occurred while invoking the chain:", error);
 }
