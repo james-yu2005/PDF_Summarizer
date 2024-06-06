@@ -23,7 +23,7 @@ let conv_History = [
     'The teachers for Scrimba include code reviewers, professional developers, and Scrimba teachers.'
 ];
 
-const question_asked_by_user = "Whats my name?";
+const question_asked_by_user = "How old are you?";
 
 const standaloneQuestionTemplate = `Please simplify this question into a standalone and use conversation history if it exists
 conversation history: {conversation_History}

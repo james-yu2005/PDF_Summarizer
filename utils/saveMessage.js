@@ -10,8 +10,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const saveMessage = async ({ messageHuman, messageAI, tableName}) => {
     const { data, error } = await supabase
         .from(tableName)
-        .insert([{human: messageHuman}])
-        .insert([{ai: messageAI}]);
+        .insert([{human: messageHuman, ai: messageAI}]);
 
     if (error) {
         console.error("Error inserting message:", error);
