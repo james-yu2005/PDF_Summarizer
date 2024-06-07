@@ -1,0 +1,12 @@
+{
+    "powermode.shake.enabled": false,
+    "powermode.explosions.offset": 0.3,
+    "powermode.explosions.size": 4,
+    "powermode.explosions.enabled": true,
+    "powermode.combo.counterSize": 2,
+    "powermode.combo.threshold": 1,
+    "powermode.enabled": true,
+    "powermode.presets": "clippy",
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.location": "off"
+}
