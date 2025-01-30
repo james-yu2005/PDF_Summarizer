@@ -4,5 +4,5 @@ This project implements a **Retrieve and Generate (RAG)** application using **La
 
 - **Text Embedding Storage**: Utilized **Supabase VectorDB** to store and retrieve text embeddings for efficient question answering.
 - **Conversational Memory**: Integrated conversation history storage in **Supabase** to enhance context in responses.
-- **Question Answering**: Combined retrieval and generation techniques to answer questions based on both sample text and prior conversation.
+- **Question Answering**: Combined retrieval and generation techniques to answer questions based on both sample text and previous conversation
 
